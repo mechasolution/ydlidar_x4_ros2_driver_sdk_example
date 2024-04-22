@@ -23,6 +23,7 @@ def generate_launch_description():
         package="ydlidar_ros2_driver",
         executable="ydlidar_ros2_driver_node",
         name="ydlidar_ros2_driver_node",
+        namespace="",
         output="screen",
         emulate_tty=True,
         parameters=[ydlidar_x4_param],
